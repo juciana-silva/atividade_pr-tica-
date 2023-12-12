@@ -1,0 +1,70 @@
+ul {
+
+  list-style-type: none;
+  /* Remover marcadores de lista em itens de lista (ul, ol) */
+  margin: 0;
+  /* Define a margem externa dos itens da lista como 0 para remover o espaço externo padrão */
+  padding: 0;
+  /* Define o preenchimento interno dos itens da lista como 0 para remover o espaço interno padrão */
+  overflow: hidden;
+  /* Controla o tratamento do conteúdo que ultrapassa o contêiner da lista */
+  background-color: #333;
+  /* Define a cor de fundo da lista para um tom de cinza escuro (#333) */
+}
+
+li {
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  /* Remove marcadores de lista em itens de lista */
+  margin: 0;
+  /* Define a margem externa da lista como 0 para remover o espaço externo padrão */
+  padding: 0;
+  /* Define o preenchimento interno da lista como 0 para remover o espaço interno padrão */
+  overflow: hidden;
+  /* Controla o tratamento do conteúdo que ultrapassa o contêiner da lista */
+  background-color: #333;
+  /* Define a cor de fundo da lista para um tom de cinza escuro (#333) */
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  /* Faz com que os links bloqueiem elementos para preencher toda a largura do contêiner <li> */
+  display: block;
+  color: white;
+  /* Define a cor do texto para branco */
+  text-align: center;
+  /* Centraliza o texto no link */
+  padding: 14px 16px;
+  /* Adiciona preenchimento de 14 pixels na parte superior e inferior e 16 pixels nas laterais */
+  text-decoration: none;
+  /* Remove a decoração de sublinhado padrão nos links */
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+  /* Muda a cor do link para #111 (preto) quando você passa o mouse sobre ele */
+}
+
+
+/* Estilos para o corpo do documento */
+body {
+font-family: 'Arial', sans-serif;
+/* Define a fonte primária como 'Arial' e a fonte secundária como sans-serif */
+line-height: 1.6;
+/* Define a altura da linha como 1,6 para melhorar a legibilidade do texto */
+background-color: #f4f4f4;
+/* Define a cor de fundo do corpo para um tom claro de cinza (#f4f4f4) */
+color: #333;
+/* Define a cor do texto principal para um tom de cinza escuro (#333) */
+
+
+}
+
